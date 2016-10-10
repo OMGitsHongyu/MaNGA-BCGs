@@ -1,0 +1,13 @@
+#Setup file for query_phot.py
+
+inputfile = input.txt  #text file containing name, ra, dec, and radius
+infofile = test_info.txt   #hold info on images (run, rerun, camcol...)
+tablesdir = ./tables/          #holds file info list
+cropdir = ./crop/  #/srv/two/dstark/python_query/crop/              #holds final images
+tempdir = ./temp/              #holds temporary files
+calibdir = ./calib/            #holds temporary files
+bands = r       #designate which bands to download (FUV,NUV,u,g,r,i,z,Y,J,H,K)
+rundownload = 1			   #set to 1 to run download (images already downloaded, can set to 0 so only sextractor will run)
+runsextractor= 1		   #set to 1 to run sextractor
+
+#END SETUP

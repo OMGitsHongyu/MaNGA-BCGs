@@ -48,13 +48,13 @@ def select_BCGs(cataname, bcgs=1, download=1, version='mpl5', outfn='bcg_list_al
         if download:
             if version == 'mpl4':
                 os.system(\
-                        'wget --user=sdss --password=2.5-meters https://data.sdss.org/sas/'+\
+                        'wget --user=x --password=x https://data.sdss.org/sas/'+\
                                 'mangawork/manga/sandbox/mangadap/MPL-4/full/'+\
                                 str(plateid)+'/'+str(designid)+'/manga-'+str(plateid)+'-'+str(designid)\
                                 +'-LOGCUBE_MAPS-NONE-023.fits.gz')
             if version == 'mpl5':
                 os.system(\
-                        'wget --user=sdss --password=2.5-meters https://data.sdss.org/sas/'+\
+                        'wget --user=x --password=x https://data.sdss.org/sas/'+\
                                 'mangawork/manga/spectro/analysis/MPL-5/VOR10-GAU-MILESHC/'+\
                                 str(plateid)+'/'+str(designid)+'/manga-'+str(plateid)+'-'+str(designid)\
                                 +'-MAPS-VOR10-GAU-MILESHC.fits.gz')

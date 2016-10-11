@@ -1,6 +1,6 @@
 # MaNGA-BCGs
 This pipeline is designed for removing MaNGA systematics on MPL4/5.
-## Get started
+## Getting started
 The script requires [sep](https://sep.readthedocs.io/en/v1.0.x/) and [swarp](http://www.astromatic.net/software/swarp).
   
 ## Usage

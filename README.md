@@ -11,5 +11,5 @@ The script requires [sep](https://sep.readthedocs.io/en/v1.0.x/) and [swarp](htt
 
 `bcg_xyvviar.py` is used to stack all the BCG velocity maps and masks.
 
-`check_bcg_xyvviar_mpl5.py` checks individual BCGs.
+`check_bcg_xyvviar_mpl5.py` checks individual BCGs. Use `make` to plot all individual BCGs.
 
